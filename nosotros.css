@@ -1,0 +1,125 @@
+/* ==========================================================================
+   ESTILOS ESPECÍFICOS PARA PÁGINA SOBRE NOSOTROS
+   ========================================================================== */
+.bg-nosotros {
+  background-color: #F1F5F9; /* Mismo fondo gris claro para contraste */
+}
+
+/* Hero Section (Adaptado de hero-siniestros) */
+.hero-nosotros {
+  padding: 130px 20px 60px;
+  background-color: var(--primary-navy, #0A192F);
+  color: white;
+  margin-bottom: 40px;
+  border-bottom: 4px solid var(--accent-blue, #3B82F6);
+}
+
+.hero-nosotros h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.hero-nosotros h1 i {
+  margin-right: 10px;
+  color: var(--accent-gold, #D97706);
+}
+
+.hero-nosotros p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #cbd5e1;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--primary-navy);
+  margin-bottom: 20px;
+}
+
+/* ==========================================
+   Contenido Principal
+   ========================================== */
+.nosotros-section {
+  padding: 0 20px 80px;
+}
+
+.nosotros-intro {
+  max-width: 800px;
+  margin: 0 auto 50px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  border: 1px solid #e2e8f0;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #475569;
+}
+
+.intro-text strong {
+  color: var(--primary-navy, #0A192F);
+}
+
+/* ==========================================
+   Tarjetas de Valores (Adaptadas de guia-card)
+   ========================================== */
+.valores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  max-width: 900px; /* Un poco más estrecho para centrar 2 tarjetas */
+  margin: 0 auto;
+}
+
+.valor-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  border: 1px solid #e2e8f0;
+  transition: transform 0.3s ease;
+}
+
+.valor-card:hover {
+  transform: translateY(-5px);
+}
+
+.valor-header {
+  padding: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.valor-header i { font-size: 2rem; }
+.valor-header h3 { font-size: 1.3rem; margin: 0; }
+
+/* Colores de cabeceras reutilizados */
+.bg-navy { background-color: var(--primary-navy, #0A192F); }
+.bg-gold { background-color: var(--accent-gold, #D97706); }
+
+.valor-body {
+  padding: 30px;
+}
+
+.valor-body p {
+  font-size: 1.05rem;
+  color: #334155;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Estilo para cuando se habilite la cédula en el footer */
+.cedula-text {
+  margin-top: 5px; 
+  color: var(--accent-blue, #3B82F6); 
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reporte de Siniestros - Emergencias</title>
+  
+  <!-- Font Awesome Iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Estilos Globales y Específicos -->
+  <link rel="stylesheet" href="styles.css"> <!-- Reutiliza tu navbar y colores -->
+  <link rel="stylesheet" href="siniestros.css"> <!-- Estilos específicos de esta página -->
+</head>
+<body class="bg-siniestros">
+
+  <!-- ==================== NAVBAR (Adaptado para volver al inicio) ==================== -->
+  <header class="navbar-floating-wrapper">
+    <nav class="navbar-pill">
+      <div class="nav-logo">
+        <a href="index.html" class="logo-link">
+          <img src="LOGOTIPO2.png" alt="Vita-Asesores Logo" class="logo-img">
+        </a>
+      </div>
+      
+      <ul class="nav-menu">
+        <li><a href="index.html#inicio">Volver al Inicio</a></li>
+        <li><a href="index.html#servicios">Servicios</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="index.html#cotizador" class="btn-pill-blue">Cotizar Seguro</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ==================== HERO SINIESTROS ==================== -->
+  <section class="hero-siniestros">
+    <div class="container text-center">
+      <h1><i class="fas fa-exclamation-triangle"></i> Centro de Emergencias</h1>
+      <p>Mantén la calma. Selecciona tu aseguradora para reportar tu siniestro o consulta nuestras guías de acción rápida.</p>
+    </div>
+  </section>
+
+  <!-- ==================== DIRECTORIO DE ASEGURADORAS (Click-to-Call) ==================== -->
+  <section class="directorio-section">
+    <div class="container">
+      <h2 class="section-title">Líneas de Reporte de Siniestros</h2>
+      <p class="section-subtitle">Toca el número para llamar directamente desde tu celular</p>
+      
+      <div class="grid-aseguradoras">
+        <!-- Tarjetas de llamadas -->
+        <a href="tel:8008002880" class="call-card"><span class="brand">QUÁLITAS</span><span class="phone"><i class="fas fa-phone-alt"></i> 800 800 2880</span></a>
+        <a href="tel:5552279000" class="call-card"><span class="brand">GNP</span><span class="phone"><i class="fas fa-phone-alt"></i> 55 5227 9000</span></a>
+        <a href="tel:8009001292" class="call-card"><span class="brand">AXA</span><span class="phone"><i class="fas fa-phone-alt"></i> 800 900 1292</span></a>
+        <a href="tel:8183995858" class="call-card"><span class="brand">MAPFRE</span><span class="phone"><i class="fas fa-phone-alt"></i> 81 8399 5858</span></a>
+        <a href="tel:8000196000" class="call-card"><span class="brand">HDI</span><span class="phone"><i class="fas fa-phone-alt"></i> 800 019 6000 <br><small>ó *434</small></span></a>
+        <a href="tel:8112533030" class="call-card"><span class="brand">CHUBB</span><span class="phone"><i class="fas fa-phone-alt"></i> 81 1253 3030</span></a>
+        <a href="tel:8002886911" class="call-card"><span class="brand">ZURICH</span><span class="phone"><i class="fas fa-phone-alt"></i> 800 288 6911 <br><small>ó *9191</small></span></a>
+        <a href="tel:8005001500" class="call-card"><span class="brand">BANORTE</span><span class="phone"><i class="fas fa-phone-alt"></i> 800 500 1500</span></a>
+        <a href="tel:8000063854" class="call-card"><span class="brand">METLIFE</span><span class="phone"><i class="fas fa-phone-alt"></i> 800 00 63854</span></a>
+        <a href="tel:8009117692" class="call-card"><span class="brand">SURA</span><span class="phone"><i class="fas fa-phone-alt"></i> 800 911 7692</span></a>
+        <a href="tel:8008303676" class="call-card"><span class="brand">BX+</span><span class="phone"><i class="fas fa-phone-alt"></i> 800 830 3676</span></a>
+        <a href="tel:8005054000" class="call-card"><span class="brand">SEGUROS MTY</span><span class="phone"><i class="fas fa-phone-alt"></i> 800 505 4000</span></a>
+        <a href="tel:8009112627" class="call-card"><span class="brand">ANA</span><span class="phone"><i class="fas fa-phone-alt"></i> 800 911 2627 <br><small>ó *262</small></span></a>
+        <a href="tel:8007234763" class="call-card"><span class="brand">AFIRME</span><span class="phone"><i class="fas fa-phone-alt"></i> 800 723 4763</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== GUÍAS DE ACCIÓN RÁPIDA ==================== -->
+  <section class="guias-section">
+    <div class="container">
+      <h2 class="section-title">Guías de Acción Rápida</h2>
+      
+      <div class="guias-grid">
+        
+        <!-- Guía: Accidente -->
+        <div class="guia-card">
+          <div class="guia-header bg-red">
+            <i class="fas fa-car-crash"></i>
+            <h3>En caso de Accidente</h3>
+          </div>
+          <div class="guia-body">
+            <ul>
+              <li><strong>Protege:</strong> Mantén la calma, enciende intermitentes y coloca triángulos (min. 100m).</li>
+              <li><strong>Auxilia:</strong> Revisa si hay lesionados; llama a emergencias si es necesario. No muevas los vehículos salvo riesgo grave.</li>
+              <li><strong>Reporta:</strong> Llama a tu aseguradora. Ten a la mano póliza, datos del conductor y ubicación. Anota el folio.</li>
+              <li><strong>Documenta:</strong> Toma fotos y videos (daños, placas, entorno). Ten lista tu licencia y tarjeta de circulación. <em>(Camiones: protege carga y conserva carta porte/GPS).</em></li>
+              <li><strong>Espera:</strong> No aceptes culpas ni firmes acuerdos. Sigue las indicaciones del ajustador.</li>
+            </ul>
+            <div class="resumen-badge">PROTEGE → AUXILIA → REPORTA → DOCUMENTA → ESPERA</div>
+          </div>
+        </div>
+
+        <!-- Guía: Empresa -->
+        <div class="guia-card">
+          <div class="guia-header bg-navy">
+            <i class="fas fa-building"></i>
+            <h3>En caso de Siniestro en Empresa</h3>
+          </div>
+          <div class="guia-body">
+            <ul>
+              <li><strong>Protege:</strong> Evacúa al personal y llama a emergencias/Bomberos/Protección Civil.</li>
+              <li><strong>Mitiga:</strong> Solo si es seguro, cierra llaves de paso, apaga equipos o corta electricidad.</li>
+              <li><strong>Reporta:</strong> Llama a la aseguradora (<24h). Ten a la mano póliza, RFC y descripción. Anota el folio.</li>
+              <li><strong>Documenta:</strong> Toma fotos/videos claros de los daños. No alteres la escena ni muevas bienes salvo urgencia. Conserva reportes oficiales.</li>
+              <li><strong>Espera:</strong> No firmes acuerdos sin el ajustador. Prepara formato de reclamación, facturas e inventarios.</li>
+            </ul>
+            <div class="resumen-badge">PROTEGE → MITIGA → REPORTA → DOCUMENTA → NO ALTERES → ESPERA</div>
+          </div>
+        </div>
+
+        <!-- Guía: Gastos Médicos -->
+        <div class="guia-card">
+          <div class="guia-header bg-blue">
+            <i class="fas fa-hospital-user"></i>
+            <h3>Gastos Médicos Mayores</h3>
+          </div>
+          <div class="guia-body">
+            <ul>
+              <li><strong>Avisa:</strong> Llama al 911 en emergencias graves. Reporta a la aseguradora (<24h) con póliza e ID en mano.</li>
+              <li><strong>Verifica:</strong> Confirma si tu plan es nacional/internacional y acude a un hospital autorizado.</li>
+              <li><strong>Atiende:</strong> Al ingresar, presenta tu credencial de póliza/ID. Pide al hospital que notifique a la aseguradora para obtener un folio.</li>
+              <li><strong>Documenta:</strong> Para reembolsos: conserva facturas XML/PDF, recetas, órdenes y resultados. Llena el aviso de accidente/enfermedad.</li>
+              <li><strong>Solicita:</strong> Pide el informe médico firmado por el doctor tratante. Envía el expediente al portal o a tu agente.</li>
+            </ul>
+            <div class="resumen-badge">AVISA → VERIFICA → ATIENDE → DOCUMENTA → SOLICITA → SEGUIMIENTO</div>
+          </div>
+        </div>
+
+        <!-- Guía: Hogar -->
+        <div class="guia-card">
+          <div class="guia-header bg-gold">
+            <i class="fas fa-home"></i>
+            <h3>En caso de Daño en el Hogar</h3>
+          </div>
+          <div class="guia-body">
+            <ul>
+              <li><strong>Protege:</strong> Evacúa y llama a emergencias ante incendio, derrumbe o fugas graves.</li>
+              <li><strong>Mitiga:</strong> Si es seguro, cierra llaves de agua/gas o corta la electricidad.</li>
+              <li><strong>Reporta:</strong> Llama a tu aseguradora (24-72h). Anota el folio.</li>
+              <li><strong>Documenta:</strong> Toma fotos/videos antes de mover o reparar. Haz un inventario de daños. (Para robo: denuncia ante MP. Desastres: constancia de Bomberos).</li>
+              <li><strong>Espera:</strong> Evita reparaciones definitivas hasta que llegue el ajustador. Entrega comprobantes, ID y actas.</li>
+            </ul>
+            <div class="resumen-badge">PROTEGE → MITIGA → REPORTA → DOCUMENTA → DENUNCIA → ESPERA</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="dark-footer">
+    <div class="footer-container text-center">
+      <div class="footer-brand" style="margin-bottom: 15px;">
+        <span class="footer-logo-text">vita<small>Asesores</small></span>
+      </div>
+      <p style="color: #AAAAAA; font-size: 0.9rem;">
+        Si tienes problemas para contactar a la aseguradora, escríbenos a nuestro WhatsApp de soporte:<br>
+        <a href="https://wa.me/8180957819" style="color: var(--accent-gold); font-weight: bold; text-decoration: none;"><i class="fab fa-whatsapp"></i> +52 81 8095 7819</a>
+      </p>
+      
+      <hr class="footer-divider">
+      
+      <div class="footer-copyright">
+        <p>Copyright 2026. Asociados, Agente de Seguros y Fianzas.</p>
+        
+        <!-- ESPACIO RESERVADO PARA LA CÉDULA PROFESIONAL -->
+        <!-- Instrucción: Cuando te entreguen la cédula, quita los comentarios de la línea de abajo y coloca el número -->
+        <!-- <p style="margin-top: 5px; color: var(--accent-blue); font-weight: 600;">Cédula Profesional CNSF: [AQUÍ_TU_NUMERO_DE_CEDULA]</p> -->
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

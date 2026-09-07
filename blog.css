@@ -1,0 +1,137 @@
+/* ==========================================================================
+   ESTILOS ESPECÍFICOS PARA PÁGINA DEL BLOG
+   ========================================================================== */
+.bg-blog {
+  background-color: #F1F5F9;
+}
+
+/* Hero Section (Alineado con Siniestros y Nosotros) */
+.hero-blog {
+  padding: 130px 20px 60px;
+  background-color: var(--primary-navy, #0A192F);
+  color: white;
+  margin-bottom: 50px;
+  border-bottom: 4px solid var(--accent-blue, #3B82F6);
+}
+
+.hero-blog h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.hero-blog h1 i {
+  margin-right: 10px;
+  color: var(--accent-blue, #3B82F6);
+}
+
+.hero-blog p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #cbd5e1;
+}
+
+/* ==========================================
+   Grid de Artículos
+   ========================================== */
+.blog-section {
+  padding: 0 20px 80px;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Diseño de las tarjetas */
+.blog-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  border: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+/* Cabecera con Icono (reemplaza la necesidad de imágenes) */
+.blog-header {
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.blog-header i {
+  font-size: 3.5rem;
+  opacity: 0.9;
+  transition: transform 0.3s ease;
+}
+
+.blog-card:hover .blog-header i {
+  transform: scale(1.1);
+}
+
+/* Colores de cabeceras */
+.bg-navy { background-color: var(--primary-navy, #0A192F); }
+.bg-gold { background-color: var(--accent-gold, #D97706); }
+.bg-blue { background-color: var(--accent-blue, #3B82F6); }
+.bg-red  { background-color: #ef4444; }
+
+/* Cuerpo del artículo */
+.blog-body {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.blog-category {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--accent-blue, #3B82F6);
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.blog-body h3 {
+  font-size: 1.25rem;
+  color: var(--primary-navy, #0A192F);
+  margin: 0 0 15px 0;
+  line-height: 1.4;
+}
+
+.blog-body p {
+  font-size: 0.95rem;
+  color: #64748b;
+  margin-bottom: 25px;
+  line-height: 1.6;
+  flex-grow: 1; /* Empuja el enlace hacia abajo */
+}
+
+.blog-link {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--primary-navy, #0A192F);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.2s ease;
+}
+
+.blog-link:hover {
+  color: var(--accent-gold, #D97706);
+}
